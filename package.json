@@ -1,0 +1,36 @@
+{
+  "name": "pbzweihander-blog",
+  "private": true,
+  "description": "Thinking with Rust",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "type-check": "tsc --noEmit",
+    "lint": "tslint --project ."
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "gatsby": "^2.0.95",
+    "gatsby-plugin-sharp": "^2.0.18",
+    "gatsby-plugin-typescript": "^2.0.3",
+    "gatsby-remark-images": "^3.0.1",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-remark": "^2.2.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "source-map-support": "^0.5.10",
+    "ts-node": "^8.0.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.4"
+  }
+}
