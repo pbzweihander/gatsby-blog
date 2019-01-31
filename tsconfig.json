@@ -12,6 +12,10 @@
     "noEmit": true,
     "skipLibCheck": true,
     "noImplicitAny": false,
-    "typeRoots": ["./src/@types", "./node_modules/@types"]
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "gatsby": ["./types/gatsby/index.d.ts"]
+    }
   }
 }
