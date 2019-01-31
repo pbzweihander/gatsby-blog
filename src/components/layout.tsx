@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { graphql, StaticQuery, Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
 export default class Layout extends React.Component {
   render() {
@@ -7,6 +8,9 @@ export default class Layout extends React.Component {
       site: { siteMetadata: { title: string } };
     }) => (
       <div>
+        <Helmet>
+          <title>{data.site.siteMetadata.title}</title>
+        </Helmet>
         <h2>{data.site.siteMetadata.title}</h2>
         <Link to="/">Home</Link>
         &nbsp;
