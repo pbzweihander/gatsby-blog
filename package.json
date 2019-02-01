@@ -13,9 +13,7 @@
     "lint": "tslint --project ."
   },
   "dependencies": {
-    "@types/node": "^10.12.18",
-    "@types/react": "^16.7.20",
-    "@types/react-dom": "^16.0.11",
+    "bootstrap": "^4.2.1",
     "gatsby": "^2.0.95",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sharp": "^2.0.18",
@@ -26,12 +24,17 @@
     "gatsby-transformer-remark": "^2.2.0",
     "prismjs": "^1.15.0",
     "react": "^16.5.1",
+    "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "rehype-react": "^3.1.0",
     "source-map-support": "^0.5.10",
     "ts-node": "^8.0.1"
   },
   "devDependencies": {
+    "@types/node": "^10.12.19",
+    "@types/react": "^16.7.22",
+    "@types/react-dom": "^16.0.11",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-react": "^3.6.0",
